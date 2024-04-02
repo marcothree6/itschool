@@ -7,6 +7,7 @@
     <meta name="'description" content="O replica a siteului itschool.ro" />
     
    <!-- Includem fonturile prima oara -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,11 +24,92 @@
    
    <!-- Includem CSS-urile noastre  -->
 
-   <link rel="stylesheet" href="css/main.css" />
+   <link rel="stylesheet" href="../css/main.css" />
  
 
 </head>
 <body>
-  
+  <nav>
+    <div class="container">
+    <a href="index.html">
+      <img src="../img/itschool-logo.png" class="logo-link" alt="itschool logo" />
+    </a>
+  <div class="menu-icon-container">
+ <span class="material-symbols-outlined menu-icon"> menu </span>
+ <input type="checkbox" /> 
+
+
+    <ul>
+
+      <li class="courses">
+        <a href="pages/courses.html"> Cursuri Online</a>
+      </li>
+      <li class="about-us">
+        <a href="pages/about.html"> Despre noi
+          <!-- Iconita luata de pe Material Icons -->
+          <span class="material-symbols-outlined arrow-down-icon">
+            arrow_drop_down
+          </span>
+        </a>
+        <!-- Submeniul afisat la hover pe "despre noi" -->
+       <div class="submenu">
+         <a href="índex.html"> IT School</a>
+         <a href="pages/about.html"> Despre noi</a>
+       </div>
+
+      </li>
+
+
+      <li class="contact">
+        <a href="pages/contact.html"> Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        One of three columns
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        One of three columns
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        One of three columns
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
